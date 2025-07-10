@@ -3,3 +3,12 @@
   font-family: "Open Sans", sans-serif;
   font-style: normal;
 }
+/* header start */
+nav {
+  background-image: url('./B12A01-landing-launchpad/Assets/Hero-bg.png');
+  background-repeat: no-repeat;
+  height: 698px;
+  width: 1440px;
+}
+
+/* header ends */
