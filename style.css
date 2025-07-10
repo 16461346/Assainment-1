@@ -1,8 +1,9 @@
 
-.open-sans-normal{
-  font-family: "Open Sans", sans-serif;
-  font-style: normal;
-  font-variation-settings: "wdth"100;
+body {
+  font-family: 'Raleway', sans-serif;
+}
+.inter-font {
+  font-family: 'Inter', sans-serif;
 }
 /* Sherd style start*/
 .primary-color{
@@ -58,6 +59,7 @@ nav a{
 }
 /*header ends*/
 /*main part work start*/
+/*action1 start here */
 .action1{
   display: flex;
   justify-content: space-between;
@@ -82,3 +84,38 @@ nav a{
   height: 328px;
   border-radius: 48px;
 }
+/*action1 ends here*/
+
+/*action2 start here*/
+
+.action2{
+  background-color: rgba(78, 71, 255, 0.1);
+  padding: 50px 80px;
+  margin: 0 150px;
+  border-radius: 24px
+}
+.action2 h3{
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.user-number{
+  display: flex;
+  gap: 159px;
+  justify-content: space-around;
+}
+.number h1{
+  font-size: 80px;
+  color: #4E47FF;
+  margin-bottom: 0px;
+  margin-top: 40px;
+}
+.number p{
+  text-align: center;
+  margin-top: 0;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/*action2 ends here*/
