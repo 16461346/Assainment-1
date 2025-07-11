@@ -314,12 +314,24 @@ form label{
   width: 400px;
   height: 24px;
  }
- .navbar a{
+ /* .navbar a{
   color:rgba(137, 135, 161, 1);;
   font-weight: bold;
   transition: .2s;
- }
- .navbar a:hover{
+ } */
+ /* .navbar a:hover{
   background-color: #4E47FF;
- }
+ } */
+ .navbar a {
+    text-decoration: none;
+    color: rgba(137, 135, 161, 1);
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.navbar a:hover {
+    background-color: #e39466;
+    padding: 5px;
+    border-radius: 5px;
+}
  /*Footer end here */
