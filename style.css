@@ -242,15 +242,36 @@ nav a {
   border-radius: 48px;
 }
 
-/* Responsive (Optional) */
-@media (max-width: 768px) {
-  .head h3 {
-    font-size: 32px;
-  }
-  .text-part1 h4 {
-    font-size: 32px;
-  }
-  .action4 h2 {
-    font-size: 36px;
-  }
+/*Action 5*/
+.action5{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  height: 632px;
+  margin: 93px 150px 14px 150px;
+  gap: 20px;
+  background-color: rgba(138, 195, 218, 0.144);
+}
+.action5 h2{
+  font-size: 77px;
+}
+form input[type="email"],input[type="text"],textarea{
+  width: 497px;
+  height: 70px;
+  border: 1px solid rgb(238, 232, 232);
+  border-radius: 10px;
+  padding: 0px  32px;
+  font-size: 18px;
+}
+form textarea{
+  height: 135px;
+  padding-top: 20px;
+}
+form label{
+  font-size: 18px;
+}
+.form-btn{
+  width: 100%;
+  margin-top: 19px;
 }
