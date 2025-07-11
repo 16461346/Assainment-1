@@ -1,22 +1,18 @@
-
+/* Font & Base */
 body {
   font-family: 'Raleway', sans-serif;
   overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 .inter-font {
   font-family: 'Inter', sans-serif;
 }
 
-/* Common Styles */
+/* Common Utilities */
 .primary-color {
   color: #4E47FF;
-}
-.hover:hover{
-  background-color: #4d47ffbe;
-  transition: all ease-in-out 0.3s;
-  color: rgba(0, 0, 0, 0.699);
-
 }
 
 .primary-color1 {
@@ -34,12 +30,20 @@ body {
   cursor: pointer;
 }
 
+.hover:hover {
+  background-color: #4d47ffbe;
+  transition: all ease-in-out 0.3s;
+  color: rgba(0, 0, 0, 0.699);
+}
+
+/* Header */
 .header {
   background-image: url('./B12A01-landing-launchpad/Assets/Hero-bg.png');
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: 698px;
+  padding-top: 30px;
 }
 
 nav {
@@ -70,6 +74,7 @@ nav a {
   text-decoration: none;
 }
 
+/* Hero Heading */
 .head {
   height: auto;
   text-align: center;
@@ -89,7 +94,6 @@ nav a {
   gap: 160px;
   max-width: 1200px;
   margin: 116px 150px;
-
 }
 
 .text-part1 {
@@ -100,7 +104,6 @@ nav a {
   font-size: 42px;
   font-weight: bold;
   color: #252432;
-  margin-bottom: 0px;
 }
 
 .text-part1 p {
@@ -118,9 +121,7 @@ nav a {
 
 /* Action 2 */
 .action2 {
-  margin-top: 116px;
-  margin-left: 150px;
-  margin-right: 150px;
+  margin: 116px auto;
   background-color: rgba(78, 71, 255, 0.1);
   padding: 50px 80px;
   max-width: 1200px;
@@ -144,8 +145,7 @@ nav a {
 .number h1 {
   font-size: 60px;
   color: #4E47FF;
-  margin-bottom: 0px;
-  margin-top: 20px;
+  margin: 20px 0 0;
 }
 
 .number p {
@@ -248,8 +248,8 @@ nav a {
   border-radius: 48px;
 }
 
-/*Action 5*/
-.action5{
+/* Action 5 - Contact */
+.action5 {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -257,81 +257,89 @@ nav a {
   height: 632px;
   padding-left: 150px;
   padding-right: 150px;
-  gap: auto;
   background-color: rgba(138, 195, 218, 0.144);
 }
-.action5 form{
+
+.action5 form {
   padding-right: 250px;
 }
-.action5 h2{
+
+.action5 h2 {
   font-size: 77px;
 }
-form input[type="email"],input[type="text"],textarea{
+
+form input[type="email"],
+form input[type="text"],
+form textarea {
   width: 450px;
   height: 70px;
   border: 1px solid rgb(238, 232, 232);
   border-radius: 10px;
-  padding: 0px  32px;
+  padding: 0px 32px;
   font-size: 18px;
 }
-form textarea{
+
+form textarea {
   height: 135px;
   padding-top: 20px;
 }
-form label{
+
+form label {
   font-size: 18px;
 }
-.form-btn{
+
+.form-btn {
   width: 90%;
   margin-top: 19px;
 }
- /*Footer start here */
- .navbar li{
-  list-style: none;
- }
- .navbar a{
-  text-decoration: none;
- }
- .navbar ul{
-  display: flex;
-  justify-content: space-around;
- }
- footer{
+
+/* Footer */
+footer {
   text-align: center;
-  padding: 105px 410px;
- }
- footer p{
+  padding: 105px 20px;
+  background-color: white;
+}
+
+footer h3 {
+  font-size: 100px;
+  margin-bottom: 10px;
+  font-style: italic;
+  color: rgb(228, 95, 0);
+}
+
+footer p {
   font-size: 16px;
   color: rgba(137, 135, 161, 1);
- }
- footer h3{
-  font-size: 100px;
-  margin-bottom: 0px;
-  font-style: italic;
-  color:  rgb(228, 95, 0);
- }
- .navbar ul{
-  width: 400px;
-  height: 24px;
- }
- /* .navbar a{
-  color:rgba(137, 135, 161, 1);;
+  max-width: 800px;
+  margin: 0 auto 30px;
+}
+
+/* Footer Navbar */
+.navbar {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: rgba(137, 135, 161, 1);
   font-weight: bold;
-  transition: .2s;
- } */
- /* .navbar a:hover{
-  background-color: #4E47FF;
- } */
- .navbar a {
-    text-decoration: none;
-    color: rgba(137, 135, 161, 1);
-    font-weight: bold;
-    transition: 0.2s;
+  transition: 0.2s;
 }
 
 .navbar a:hover {
-    background-color: #e39466;
-    padding: 5px;
-    border-radius: 5px;
+  background-color: #e39466;
+  padding: 5px;
+  border-radius: 5px;
 }
- /*Footer end here */
